@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>3135469</id>
+      <size>40</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-10-19 11:55:35.799515+00:00</created>
+      <updated>2025-10-20 06:33:08.290694+00:00</updated>
+      <subset>Train</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>39</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>3137190</id>
+          <start>0</start>
+          <stop>39</stop>
+          <url>https://app.cvat.ai/api/jobs/3135469</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>tanmay4</username>
+        <email>tanmay.amritkar512@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>curious_region</name>
+          <color>#2208fd</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>curiosity_score</name>
+              <mutable>False</mutable>
+              <input_type>number</input_type>
+              <default_value>0</default_value>
+              <values>0
+5
+1</values>
+            </attribute>
+            <attribute>
+              <name>question_type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>why</default_value>
+              <values>why
+what
+how
+anomaly</values>
+            </attribute>
+            <attribute>
+              <name>question</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-10-20 06:33:56.731886+00:00</dumped>
+  </meta>
+  <image id="0" name="img_161.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="351.67" ytl="93.79" xbr="674.20" ybr="648.93" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is a tree growing out of a road?</attribute>
+    </box>
+  </image>
+  <image id="1" name="img_162.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="370.42" ytl="195.07" xbr="617.99" ybr="598.29" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is there a flower out of concrete?</attribute>
+    </box>
+  </image>
+  <image id="2" name="img_163.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="291.66" ytl="407.00" xbr="709.88" ybr="665.81" z_order="0">
+      <attribute name="curiosity_score">0</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is there a leaf in a water jar?</attribute>
+    </box>
+  </image>
+  <image id="3" name="img_164.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="79.73" ytl="204.45" xbr="961.19" ybr="896.49" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">how</attribute>
+      <attribute name="question">how is there a heart shaped puddle?</attribute>
+    </box>
+  </image>
+  <image id="4" name="img_165.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="156.62" ytl="408.87" xbr="550.47" ybr="982.76" z_order="0">
+      <attribute name="curiosity_score">1</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is there a human shaped shadow?</attribute>
+    </box>
+  </image>
+  <image id="5" name="img_166.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="381.68" ytl="502.64" xbr="619.86" ybr="705.19" z_order="0">
+      <attribute name="curiosity_score">0</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is there a swing?</attribute>
+    </box>
+  </image>
+  <image id="6" name="img_167.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="297.28" ytl="136.93" xbr="706.13" ybr="508.27" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">how</attribute>
+      <attribute name="question">how is the rock perfectly balanced?</attribute>
+    </box>
+  </image>
+  <image id="7" name="img_168.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="409.81" ytl="418.25" xbr="629.24" ybr="613.30" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">how</attribute>
+      <attribute name="question">how is the water droplet there?</attribute>
+    </box>
+  </image>
+  <image id="8" name="img_169.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="263.52" ytl="427.63" xbr="927.44" ybr="662.06" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the leaf on the mirror?</attribute>
+    </box>
+  </image>
+  <image id="9" name="img_170.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="166.00" ytl="669.56" xbr="739.89" ybr="763.33" z_order="0">
+      <attribute name="curiosity_score">0</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is there a shadow?</attribute>
+    </box>
+  </image>
+  <image id="10" name="img_171.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="329.16" ytl="677.06" xbr="696.75" ybr="860.86" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is there a beam of sunshine on the bench?</attribute>
+    </box>
+  </image>
+  <image id="11" name="img_172.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="512.96" ytl="333.85" xbr="803.66" ybr="800.84" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the vase there?</attribute>
+    </box>
+  </image>
+  <image id="12" name="img_173.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="430.44" ytl="138.81" xbr="668.62" ybr="733.33" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the feather in the glass?</attribute>
+    </box>
+  </image>
+  <image id="13" name="img_174.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="211.01" ytl="573.91" xbr="858.04" ybr="804.59" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">what</attribute>
+      <attribute name="question">what is a broken egg doing on a plate?</attribute>
+    </box>
+  </image>
+  <image id="14" name="img_175.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="126.62" ytl="118.18" xbr="899.30" ybr="900.24" z_order="0">
+      <attribute name="curiosity_score">1</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is there a window?</attribute>
+    </box>
+  </image>
+  <image id="15" name="img_176.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="486.70" ytl="448.26" xbr="571.10" ybr="615.17" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the lead green?</attribute>
+    </box>
+  </image>
+  <image id="16" name="img_177.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="226.01" ytl="365.74" xbr="837.41" ybr="682.69" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the potato there?</attribute>
+    </box>
+  </image>
+  <image id="17" name="img_178.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="197.88" ytl="420.12" xbr="826.16" ybr="838.35" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">what</attribute>
+      <attribute name="question">what is an empty photoframe doing on grass?</attribute>
+    </box>
+  </image>
+  <image id="18" name="img_179.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="404.18" ytl="264.46" xbr="625.49" ybr="733.33" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the lead there?</attribute>
+    </box>
+  </image>
+  <image id="19" name="img_180.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="98.48" ytl="508.27" xbr="944.32" ybr="934.00" z_order="0">
+      <attribute name="curiosity_score">1</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is there a puddle?</attribute>
+    </box>
+  </image>
+  <image id="20" name="img_181.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="404.18" ytl="168.81" xbr="625.49" ybr="731.45" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the baloon there?</attribute>
+    </box>
+  </image>
+  <image id="21" name="img_182.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="289.78" ytl="420.12" xbr="672.37" ybr="941.50" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the candle lit?</attribute>
+    </box>
+  </image>
+  <image id="22" name="img_183.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="310.41" ytl="427.63" xbr="674.25" ybr="611.42" z_order="0">
+      <attribute name="curiosity_score">1</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the road empty?</attribute>
+    </box>
+  </image>
+  <image id="23" name="img_184.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="201.63" ytl="200.70" xbr="421.06" ybr="425.75" z_order="0">
+      <attribute name="curiosity_score">1</attribute>
+      <attribute name="question_type">what</attribute>
+      <attribute name="question">what are we looking at?</attribute>
+    </box>
+  </image>
+  <image id="24" name="img_185.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="319.79" ytl="116.30" xbr="571.10" ybr="716.45" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is a flower on a shoe?</attribute>
+    </box>
+  </image>
+  <image id="25" name="img_186.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="376.05" ytl="386.37" xbr="661.12" ybr="675.19" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the branch spiral?</attribute>
+    </box>
+  </image>
+  <image id="26" name="img_187.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="167.88" ytl="296.34" xbr="801.78" ybr="624.55" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the mirror broken?</attribute>
+    </box>
+  </image>
+  <image id="27" name="img_188.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="447.32" ytl="247.58" xbr="625.49" ybr="360.11" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the window broken?</attribute>
+    </box>
+  </image>
+  <image id="28" name="img_189.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="458.57" ytl="577.66" xbr="644.24" ybr="838.35" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is a chair there?</attribute>
+    </box>
+  </image>
+  <image id="29" name="img_190.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="340.42" ytl="208.20" xbr="617.99" ybr="630.18" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">how</attribute>
+      <attribute name="question">how is a lead standing upright in water?</attribute>
+    </box>
+  </image>
+  <image id="30" name="img_191.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="248.52" ytl="279.47" xbr="760.52" ybr="793.34" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is a handprint there?</attribute>
+    </box>
+  </image>
+  <image id="31" name="img_192.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="254.15" ytl="97.55" xbr="745.52" ybr="956.51" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">how</attribute>
+      <attribute name="question">how is a tree branch in question mark shape?</attribute>
+    </box>
+  </image>
+  <image id="32" name="img_193.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="310.41" ytl="474.51" xbr="693.00" ybr="742.70" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is a plant in the jar?</attribute>
+    </box>
+  </image>
+  <image id="33" name="img_194.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="334.79" ytl="189.44" xbr="691.10" ybr="722.07" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is there a ladder in open space?</attribute>
+    </box>
+  </image>
+  <image id="34" name="img_195.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="286.03" ytl="376.99" xbr="653.62" ybr="515.77" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is one side of the road raining?</attribute>
+    </box>
+  </image>
+  <image id="35" name="img_196.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="422.94" ytl="478.26" xbr="616.11" ybr="598.29" z_order="0">
+      <attribute name="curiosity_score">1</attribute>
+      <attribute name="question_type">how</attribute>
+      <attribute name="question">how is the raindrop there?</attribute>
+    </box>
+  </image>
+  <image id="36" name="img_197.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="209.14" ytl="354.48" xbr="805.53" ybr="782.09" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">how</attribute>
+      <attribute name="question">how was the sand face made?</attribute>
+    </box>
+  </image>
+  <image id="37" name="img_198.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="334.79" ytl="258.84" xbr="593.60" ybr="542.03" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">what</attribute>
+      <attribute name="question">what is this reflecting surface?</attribute>
+    </box>
+  </image>
+  <image id="38" name="img_199.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="325.41" ytl="339.48" xbr="661.12" ybr="834.60" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">how</attribute>
+      <attribute name="question">how is the flower alive?</attribute>
+    </box>
+  </image>
+  <image id="39" name="img_200.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="392.93" ytl="219.45" xbr="632.99" ybr="296.34" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the stone there?</attribute>
+    </box>
+  </image>
+</annotations>

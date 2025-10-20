@@ -1,0 +1,990 @@
+{
+  "version": "1.1",
+  "meta": {
+    "job": {
+      "id": "3135454",
+      "size": 40,
+      "mode": "annotation",
+      "created": "2025-10-19 11:32:55.811026+00:00",
+      "updated": "2025-10-19 16:06:02.482919+00:00",
+      "subset": "Train"
+    },
+    "labels": [
+      {
+        "name": "curiosity_region",
+        "color": "#a33a08",
+        "type": "any",
+        "attributes": [
+          {
+            "name": "curiosity_score",
+            "mutable": "False",
+            "input_type": "number",
+            "default_value": "0",
+            "values": [
+              "0",
+              "5",
+              "1"
+            ]
+          },
+          {
+            "name": "question_type",
+            "mutable": "False",
+            "input_type": "select",
+            "default_value": "why",
+            "values": [
+              "why",
+              "what",
+              "how",
+              "anomaly"
+            ]
+          },
+          {
+            "name": "question",
+            "mutable": "False",
+            "input_type": "text",
+            "default_value": null,
+            "values": []
+          }
+        ]
+      }
+    ],
+    "dumped": "2025-10-19 16:10:40.848052+00:00"
+  },
+  "annotations": [
+    {
+      "id": 80,
+      "name": "img_081.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 240.11,
+          "ytl": 388.67,
+          "xbr": 797.9,
+          "ybr": 766.28,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the chair there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "img_082.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 270.78,
+          "ytl": 214.24,
+          "xbr": 646.48,
+          "ybr": 639.77,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the clock there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "img_083.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 527.63,
+          "ytl": 81.98,
+          "xbr": 677.14,
+          "ybr": 821.86,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the lamp there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "img_084.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 274.62,
+          "ytl": 463.42,
+          "xbr": 891.83,
+          "ybr": 829.53,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the shoe there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "img_085.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 23.51,
+          "ytl": 281.32,
+          "xbr": 997.25,
+          "ybr": 816.11,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the book there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "img_086.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 466.3,
+          "ytl": 329.24,
+          "xbr": 550.6,
+          "ybr": 835.28,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the fork there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "img_087.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 404.96,
+          "ytl": 591.85,
+          "xbr": 564.05,
+          "ybr": 718.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the cup there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "img_088.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 243.95,
+          "ytl": 482.59,
+          "xbr": 801.74,
+          "ybr": 632.1,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the plate there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "img_089.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 261.2,
+          "ytl": 164.4,
+          "xbr": 690.56,
+          "ybr": 795.03,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the mirror there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "img_090.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 345.54,
+          "ytl": 465.34,
+          "xbr": 680.98,
+          "ybr": 641.68,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the pillow there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "img_091.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 334.04,
+          "ytl": 189.32,
+          "xbr": 669.48,
+          "ybr": 787.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the door there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "img_092.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 59.93,
+          "ytl": 126.06,
+          "xbr": 897.58,
+          "ybr": 710.69,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the umbrella there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "img_093.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 335.95,
+          "ytl": 520.93,
+          "xbr": 608.14,
+          "ybr": 749.03,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why are these there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "img_094.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 368.54,
+          "ytl": 382.92,
+          "xbr": 788.32,
+          "ybr": 706.86,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the bicycle there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "img_095.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 422.21,
+          "ytl": 350.33,
+          "xbr": 617.72,
+          "ybr": 685.77,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the bulb there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "img_096.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 427.96,
+          "ytl": 450.0,
+          "xbr": 587.06,
+          "ybr": 691.52,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the basket there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "img_097.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 174.94,
+          "ytl": 379.08,
+          "xbr": 849.66,
+          "ybr": 668.52,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the blanket there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "img_098.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 334.04,
+          "ytl": 241.07,
+          "xbr": 776.82,
+          "ybr": 833.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 5,
+            "question_type": "why",
+            "question": "why is the chair like this?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "img_099.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 416.46,
+          "ytl": 110.73,
+          "xbr": 606.22,
+          "ybr": 727.94,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 5,
+            "question_type": "why",
+            "question": "why is the spoon there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "img_100.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 466.3,
+          "ytl": 496.01,
+          "xbr": 751.9,
+          "ybr": 770.11,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the cup there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "img_101.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 274.62,
+          "ytl": 267.91,
+          "xbr": 761.48,
+          "ybr": 760.53,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the plate like this?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "img_102.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 378.12,
+          "ytl": 425.08,
+          "xbr": 690.56,
+          "ybr": 641.68,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 5,
+            "question_type": "why",
+            "question": "why is the tv there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "img_103.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 257.36,
+          "ytl": 381.0,
+          "xbr": 784.49,
+          "ybr": 762.44,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the frame there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "img_104.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 192.19,
+          "ytl": 488.34,
+          "xbr": 899.49,
+          "ybr": 802.7,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 5,
+            "question_type": "why",
+            "question": "why is the notebook there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "img_105.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 123.19,
+          "ytl": 331.16,
+          "xbr": 939.75,
+          "ybr": 620.6,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the pillow there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "img_106.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 395.37,
+          "ytl": 474.92,
+          "xbr": 615.81,
+          "ybr": 703.02,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the cup like this?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "img_107.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 217.1,
+          "ytl": 304.3,
+          "xbr": 778.74,
+          "ybr": 701.11,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 5,
+            "question_type": "why",
+            "question": "why is shoe there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "img_108.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 289.95,
+          "ytl": 80.06,
+          "xbr": 748.07,
+          "ybr": 833.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the chair like this?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "img_109.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 88.7,
+          "ytl": 311.99,
+          "xbr": 841.99,
+          "ybr": 706.86,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the clock like this?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "img_110.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 357.04,
+          "ytl": 246.82,
+          "xbr": 533.38,
+          "ybr": 453.84,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the lamp there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "img_111.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 92.52,
+          "ytl": 463.42,
+          "xbr": 922.5,
+          "ybr": 568.85,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the pen there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "img_112.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 125.1,
+          "ytl": 444.25,
+          "xbr": 880.33,
+          "ybr": 835.28,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "what",
+            "question": "what is there in the bowl?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "img_113.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 416.46,
+          "ytl": 265.99,
+          "xbr": 564.05,
+          "ybr": 553.51,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the object like this?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "img_114.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 335.95,
+          "ytl": 701.11,
+          "xbr": 717.4,
+          "ybr": 810.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the plate there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "img_115.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 289.95,
+          "ytl": 126.06,
+          "xbr": 679.06,
+          "ybr": 833.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 2,
+            "question_type": "why",
+            "question": "why is the frame there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "img_116.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 109.77,
+          "ytl": 373.33,
+          "xbr": 907.16,
+          "ybr": 821.86,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the shoe there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "img_117.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 213.28,
+          "ytl": 421.25,
+          "xbr": 581.3,
+          "ybr": 745.19,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the book there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "img_118.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 450.96,
+          "ytl": 129.9,
+          "xbr": 585.14,
+          "ybr": 783.53,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the fork there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "img_119.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 439.46,
+          "ytl": 356.08,
+          "xbr": 726.98,
+          "ybr": 833.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the candle there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "img_120.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 40.76,
+          "ytl": 574.6,
+          "xbr": 968.5,
+          "ybr": 741.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the umbrella there?"
+          }
+        },
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 552.55,
+          "ytl": 407.83,
+          "xbr": 803.65,
+          "ybr": 620.6,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the cup there?"
+          }
+        }
+      ]
+    }
+  ]
+}

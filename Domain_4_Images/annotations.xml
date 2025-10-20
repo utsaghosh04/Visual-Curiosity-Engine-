@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>3135413</id>
+      <size>40</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-10-19 10:48:27.003823+00:00</created>
+      <updated>2025-10-19 11:40:04.946617+00:00</updated>
+      <subset>Train</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>39</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>3137134</id>
+          <start>0</start>
+          <stop>39</stop>
+          <url>https://app.cvat.ai/api/jobs/3135413</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>tanmay4</username>
+        <email>tanmay.amritkar512@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>curious_region</name>
+          <color>#2208fd</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>curiosity_score</name>
+              <mutable>False</mutable>
+              <input_type>number</input_type>
+              <default_value>0</default_value>
+              <values>0
+5
+1</values>
+            </attribute>
+            <attribute>
+              <name>question_type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>why</default_value>
+              <values>why
+what
+how
+anomaly</values>
+            </attribute>
+            <attribute>
+              <name>question</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-10-19 11:41:33.210917+00:00</dumped>
+  </meta>
+  <image id="0" name="img_121.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="214.76" ytl="465.14" xbr="749.27" ybr="693.94" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the drone there</attribute>
+    </box>
+  </image>
+  <image id="1" name="img_122.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="473.94" ytl="42.88" xbr="767.89" ybr="408.64" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">what</attribute>
+      <attribute name="question">what is the robot doing?</attribute>
+    </box>
+    <box label="curious_region" source="manual" occluded="0" xtl="164.27" ytl="368.25" xbr="447.01" ybr="778.89" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the plant there?</attribute>
+    </box>
+  </image>
+  <image id="2" name="img_123.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="211.01" ytl="333.85" xbr="976.20" ybr="797.09" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the telephone there?</attribute>
+    </box>
+  </image>
+  <image id="3" name="img_124.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="494.21" ytl="228.83" xbr="784.90" ybr="667.68" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the mouse there?</attribute>
+    </box>
+  </image>
+  <image id="4" name="img_125.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="263.52" ytl="352.61" xbr="747.39" ybr="742.70" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the camera there?</attribute>
+    </box>
+  </image>
+  <image id="5" name="img_126.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="359.17" ytl="367.61" xbr="664.87" ybr="737.08" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the washing machine there?</attribute>
+    </box>
+  </image>
+  <image id="6" name="img_127.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="226.01" ytl="418.25" xbr="921.81" ybr="639.55" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the keyboard there?</attribute>
+    </box>
+  </image>
+  <image id="7" name="img_128.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="218.51" ytl="270.09" xbr="814.91" ybr="742.70" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the laptop there?</attribute>
+    </box>
+  </image>
+  <image id="8" name="img_129.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="340.42" ytl="178.19" xbr="732.39" ybr="692.07" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why are the headphones there?</attribute>
+    </box>
+  </image>
+  <image id="9" name="img_130.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="257.90" ytl="376.99" xbr="768.02" ybr="714.57" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the typewriter there?</attribute>
+    </box>
+  </image>
+  <image id="10" name="img_131.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="351.67" ytl="437.00" xbr="843.04" ybr="813.97" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the hand like this?</attribute>
+    </box>
+  </image>
+  <image id="11" name="img_132.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="120.99" ytl="446.38" xbr="666.75" ybr="817.72" z_order="0">
+      <attribute name="curiosity_score">0</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the radio there?</attribute>
+    </box>
+  </image>
+  <image id="12" name="img_133.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="15.96" ytl="228.83" xbr="989.33" ybr="808.34" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the cycle there?</attribute>
+    </box>
+  </image>
+  <image id="13" name="img_134.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="321.66" ytl="217.58" xbr="753.02" ybr="663.93" z_order="0">
+      <attribute name="curiosity_score">2</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the phone there?</attribute>
+    </box>
+  </image>
+  <image id="14" name="img_135.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="145.37" ytl="643.30" xbr="469.82" ybr="791.47" z_order="0">
+      <attribute name="curiosity_score">0</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the clock there?</attribute>
+    </box>
+  </image>
+  <image id="15" name="img_136.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="346.04" ytl="303.85" xbr="696.75" ybr="468.89" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the drone there?</attribute>
+    </box>
+  </image>
+  <image id="16" name="img_137.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="539.22" ytl="705.19" xbr="852.42" ybr="950.88" z_order="0">
+      <attribute name="curiosity_score">2</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the camera there?</attribute>
+    </box>
+  </image>
+  <image id="17" name="img_138.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="246.64" ytl="457.63" xbr="798.03" ybr="804.59" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the car there?</attribute>
+    </box>
+  </image>
+  <image id="18" name="img_139.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="244.77" ytl="324.48" xbr="796.15" ybr="746.45" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the tv there?</attribute>
+    </box>
+  </image>
+  <image id="19" name="img_140.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="119.11" ytl="414.50" xbr="526.09" ybr="737.08" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">how</attribute>
+      <attribute name="question">how is the sand there?</attribute>
+    </box>
+  </image>
+  <image id="20" name="img_141.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="436.07" ytl="397.62" xbr="777.40" ybr="806.47" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the washing machine there?</attribute>
+    </box>
+  </image>
+  <image id="21" name="img_142.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="589.85" ytl="151.93" xbr="822.41" ybr="423.88" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">what</attribute>
+      <attribute name="question">what is the robot doing?</attribute>
+    </box>
+    <box label="curious_region" source="manual" occluded="0" xtl="175.38" ytl="416.37" xbr="769.90" ybr="843.98" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the newspaper there?</attribute>
+    </box>
+    <box label="curious_region" source="manual" occluded="0" xtl="589.85" ytl="613.30" xbr="798.03" ybr="750.21" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the hand there?</attribute>
+    </box>
+  </image>
+  <image id="22" name="img_143.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="286.03" ytl="463.26" xbr="649.87" ybr="731.45" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the laptop there?</attribute>
+    </box>
+  </image>
+  <image id="23" name="img_144.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="325.41" ytl="615.17" xbr="674.25" ybr="883.36" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the camera there?</attribute>
+    </box>
+  </image>
+  <image id="24" name="img_145.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="422.94" ytl="367.61" xbr="601.11" ybr="722.07" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">how</attribute>
+      <attribute name="question">how is the phone there?</attribute>
+    </box>
+  </image>
+  <image id="25" name="img_146.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="25.34" ytl="407.00" xbr="983.70" ybr="791.47" z_order="0">
+      <attribute name="curiosity_score">1</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the drone there?</attribute>
+    </box>
+  </image>
+  <image id="26" name="img_147.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="263.52" ytl="176.32" xbr="670.50" ybr="461.38" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the robot hand there?</attribute>
+    </box>
+  </image>
+  <image id="27" name="img_148.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="571.10" ytl="474.51" xbr="925.56" ybr="699.57" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the typewriter there?</attribute>
+    </box>
+  </image>
+  <image id="28" name="img_149.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="361.05" ytl="150.06" xbr="859.92" ybr="892.74" z_order="0">
+      <attribute name="curiosity_score">1</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why are the headphones there?</attribute>
+    </box>
+  </image>
+  <image id="29" name="img_150.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="361.05" ytl="294.47" xbr="732.39" ybr="444.51" z_order="0">
+      <attribute name="curiosity_score">1</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the mouse there?</attribute>
+    </box>
+  </image>
+  <image id="30" name="img_151.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="798.03" ytl="534.53" xbr="974.32" ybr="729.58" z_order="0">
+      <attribute name="curiosity_score">2</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the candle there?</attribute>
+    </box>
+  </image>
+  <image id="31" name="img_152.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="586.10" ytl="365.74" xbr="805.53" ybr="943.38" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">what</attribute>
+      <attribute name="question">what is the robot doing?</attribute>
+    </box>
+  </image>
+  <image id="32" name="img_153.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="51.60" ytl="408.87" xbr="978.07" ybr="688.32" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the drone there?</attribute>
+    </box>
+  </image>
+  <image id="33" name="img_154.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="151.00" ytl="480.14" xbr="893.68" ybr="823.35" z_order="0">
+      <attribute name="curiosity_score">1</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the calculator there?</attribute>
+    </box>
+  </image>
+  <image id="34" name="img_155.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="419.19" ytl="365.74" xbr="627.36" ybr="650.81" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the remote there?</attribute>
+    </box>
+  </image>
+  <image id="35" name="img_156.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="379.80" ytl="225.08" xbr="646.12" ybr="842.10" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the keyboard there?</attribute>
+    </box>
+  </image>
+  <image id="36" name="img_157.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="231.64" ytl="245.71" xbr="833.66" ybr="956.51" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the robot there?</attribute>
+    </box>
+  </image>
+  <image id="37" name="img_158.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="83.48" ytl="369.49" xbr="903.05" ybr="693.94" z_order="0">
+      <attribute name="curiosity_score">3</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the drone there?</attribute>
+    </box>
+  </image>
+  <image id="38" name="img_159.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="351.67" ytl="397.62" xbr="681.75" ybr="716.45" z_order="0">
+      <attribute name="curiosity_score">4</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the tv there?</attribute>
+    </box>
+  </image>
+  <image id="39" name="img_160.png" width="1024" height="1024">
+    <box label="curious_region" source="manual" occluded="0" xtl="492.33" ytl="408.87" xbr="679.88" ybr="697.69" z_order="0">
+      <attribute name="curiosity_score">5</attribute>
+      <attribute name="question_type">why</attribute>
+      <attribute name="question">why is the switch there?</attribute>
+    </box>
+  </image>
+</annotations>

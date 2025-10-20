@@ -1,0 +1,1065 @@
+{
+  "version": "1.1",
+  "meta": {
+    "job": {
+      "id": "3135454",
+      "size": 40,
+      "mode": "annotation",
+      "created": "2025-10-19 11:32:55.811026+00:00",
+      "updated": "2025-10-19 16:06:02.482919+00:00",
+      "subset": "Train"
+    },
+    "labels": [
+      {
+        "name": "curiosity_region",
+        "color": "#a33a08",
+        "type": "any",
+        "attributes": [
+          {
+            "name": "curiosity_score",
+            "mutable": "False",
+            "input_type": "number",
+            "default_value": "0",
+            "values": [
+              "0",
+              "5",
+              "1"
+            ]
+          },
+          {
+            "name": "question_type",
+            "mutable": "False",
+            "input_type": "select",
+            "default_value": "why",
+            "values": [
+              "why",
+              "what",
+              "how",
+              "anomaly"
+            ]
+          },
+          {
+            "name": "question",
+            "mutable": "False",
+            "input_type": "text",
+            "default_value": null,
+            "values": []
+          }
+        ]
+      }
+    ],
+    "dumped": "2025-10-19 16:10:40.848052+00:00"
+  },
+  "annotations": [
+    {
+      "id": 40,
+      "name": "img_041.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 163.44,
+          "ytl": 352.25,
+          "xbr": 335.95,
+          "ybr": 463.42,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is inside the bowl?"
+          }
+        },
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 510.38,
+          "ytl": 87.73,
+          "xbr": 749.98,
+          "ybr": 277.49,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 2,
+            "question_type": "what",
+            "question": "what is the dog looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "img_042.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 0.0,
+          "ytl": 574.6,
+          "xbr": 924.41,
+          "ybr": 835.28,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the cat sleeping on the laptop?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "img_043.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 468.21,
+          "ytl": 288.99,
+          "xbr": 573.64,
+          "ybr": 455.75,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 2,
+            "question_type": "anomaly",
+            "question": "why is the bird sitting there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "img_044.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 268.86,
+          "ytl": 147.15,
+          "xbr": 700.15,
+          "ybr": 727.94,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the horse looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "img_045.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 238.2,
+          "ytl": 124.15,
+          "xbr": 880.33,
+          "ybr": 833.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the rabbit inside the cup?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "img_046.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 422.21,
+          "ytl": 524.76,
+          "xbr": 619.64,
+          "ybr": 833.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the duck there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "img_047.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 134.69,
+          "ytl": 210.4,
+          "xbr": 468.21,
+          "ybr": 482.59,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "why",
+            "question": "why is the dog wearing glasses?"
+          }
+        },
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 127.02,
+          "ytl": 455.75,
+          "xbr": 711.65,
+          "ybr": 833.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the newspaper there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "img_048.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 330.2,
+          "ytl": 294.74,
+          "xbr": 491.21,
+          "ybr": 448.09,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the cat looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "img_049.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 381.96,
+          "ytl": 177.82,
+          "xbr": 669.48,
+          "ybr": 589.93,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the pigeon there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "img_050.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 270.78,
+          "ytl": 285.16,
+          "xbr": 763.4,
+          "ybr": 793.11,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the animal sitting there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "img_051.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 366.62,
+          "ytl": 273.66,
+          "xbr": 680.98,
+          "ybr": 515.17,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the frog there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "img_052.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 184.53,
+          "ytl": 196.98,
+          "xbr": 746.15,
+          "ybr": 833.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the cow there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "img_053.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 575.55,
+          "ytl": 181.65,
+          "xbr": 744.23,
+          "ybr": 313.91,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the dog wearing glasses?"
+          }
+        },
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 111.69,
+          "ytl": 432.75,
+          "xbr": 192.19,
+          "ybr": 499.84,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 1,
+            "question_type": "what",
+            "question": "what is there inside the cup?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "img_054.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 213.28,
+          "ytl": 377.16,
+          "xbr": 958.92,
+          "ybr": 724.11,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the cat there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "img_055.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 186.44,
+          "ytl": 248.7,
+          "xbr": 692.5,
+          "ybr": 833.37,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 2,
+            "question_type": "why",
+            "question": "why is the dog there?"
+          }
+        },
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 466.3,
+          "ytl": 246.82,
+          "xbr": 629.22,
+          "ybr": 382.92,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 4,
+            "question_type": "what",
+            "question": "what is the dog looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "img_056.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 621.56,
+          "ytl": 329.24,
+          "xbr": 830.49,
+          "ybr": 630.18,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the bird there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "img_057.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 383.87,
+          "ytl": 419.33,
+          "xbr": 611.97,
+          "ybr": 643.6,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the animal doing with the flower?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "img_058.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 537.22,
+          "ytl": 354.16,
+          "xbr": 755.73,
+          "ybr": 528.59,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the animal looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "img_059.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 251.61,
+          "ytl": 158.65,
+          "xbr": 817.07,
+          "ybr": 779.69,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the cat there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "img_060.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 228.61,
+          "ytl": 519.01,
+          "xbr": 496.97,
+          "ybr": 701.11,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is there in the cup?"
+          }
+        },
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 433.71,
+          "ytl": 187.4,
+          "xbr": 845.82,
+          "ybr": 712.61,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 2,
+            "question_type": "what",
+            "question": "what is the squirrel doing?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "img_061.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 167.27,
+          "ytl": 689.6,
+          "xbr": 592.81,
+          "ybr": 833.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 2,
+            "question_type": "why",
+            "question": "why is the phone there?"
+          }
+        },
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 339.79,
+          "ytl": 28.31,
+          "xbr": 673.31,
+          "ybr": 601.43,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the animal looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "img_062.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 424.13,
+          "ytl": 342.66,
+          "xbr": 646.48,
+          "ybr": 570.76,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the bird there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "img_063.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 518.05,
+          "ytl": 321.58,
+          "xbr": 855.41,
+          "ybr": 547.76,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the dog looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "img_064.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 127.02,
+          "ytl": 267.91,
+          "xbr": 882.24,
+          "ybr": 624.43,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the cat there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "img_065.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 393.5,
+          "ytl": 112.65,
+          "xbr": 807.49,
+          "ybr": 547.76,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the rabbit looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "img_066.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 462.46,
+          "ytl": 296.66,
+          "xbr": 690.6,
+          "ybr": 835.28,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the horse there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "img_067.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 449.04,
+          "ytl": 497.92,
+          "xbr": 621.56,
+          "ybr": 837.2,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the dog there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "img_068.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 401.12,
+          "ytl": 482.59,
+          "xbr": 941.66,
+          "ybr": 749.03,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the bird there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "img_069.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 345.54,
+          "ytl": 350.33,
+          "xbr": 696.31,
+          "ybr": 770.11,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the cat there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "img_070.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 523.8,
+          "ytl": 216.15,
+          "xbr": 817.07,
+          "ybr": 427.0,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the dog looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "img_071.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 619.64,
+          "ytl": 296.66,
+          "xbr": 820.91,
+          "ybr": 482.59,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the bird there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "img_072.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 389.62,
+          "ytl": 76.23,
+          "xbr": 682.9,
+          "ybr": 655.1,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the cat there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "img_073.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 303.37,
+          "ytl": 120.31,
+          "xbr": 634.98,
+          "ybr": 520.93,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the animal looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "img_074.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 587.06,
+          "ytl": 509.42,
+          "xbr": 926.33,
+          "ybr": 831.45,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the bird there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "img_075.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 284.2,
+          "ytl": 208.49,
+          "xbr": 556.39,
+          "ybr": 618.68,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the animal looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "img_076.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 358.95,
+          "ytl": 248.74,
+          "xbr": 692.48,
+          "ybr": 509.42,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the dog looking at?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "img_077.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 426.04,
+          "ytl": 444.25,
+          "xbr": 613.89,
+          "ybr": 833.36,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the cat there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "img_078.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 458.63,
+          "ytl": 373.33,
+          "xbr": 569.8,
+          "ybr": 733.69,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the horse there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "img_079.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 44.41,
+          "ytl": 252.57,
+          "xbr": 548.72,
+          "ybr": 837.2,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "why",
+            "question": "why is the bird there?"
+          }
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "img_080.png",
+      "width": 1024,
+      "height": 1024,
+      "annotations": [
+        {
+          "label": "curiosity_region",
+          "source": "manual",
+          "occluded": 0,
+          "xtl": 242.03,
+          "ytl": 141.4,
+          "xbr": 719.31,
+          "ybr": 553.51,
+          "z_order": 0,
+          "attributes": {
+            "curiosity_score": 3,
+            "question_type": "what",
+            "question": "what is the dog looking at?"
+          }
+        }
+      ]
+    }
+  ]
+}
