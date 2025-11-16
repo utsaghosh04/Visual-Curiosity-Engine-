@@ -1,7 +1,6 @@
 # Visual Curiosity Engine
 
-# Name  :  Utsa Ghosh (23CS10090)
-# Name  :  Tanmay Amritkar (23CS30066)
+# Members : Utsa Ghosh (23CS10090)  & Tanmay Amritkar (23CS30066)
 
 
 A comprehensive project for predicting curiosity-inducing regions in images using deep learning and vision-language models. This repository contains multiple model architectures, training notebooks, and evaluation tools.
