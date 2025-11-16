@@ -24,6 +24,12 @@ A comprehensive project for predicting curiosity-inducing regions in images usin
   - Architecture: Frozen BLIP-2 ViT backbone + domain context encoder + curiosity head
   - Predicts patch-level curiosity scores from 1024×1024 images
   - Includes masked supervision for sparse annotations
+ 
+- **`vqa_model.ipynb`**
+  - Extracts attention heatmaps from VQA (Visual Question Answering) models
+  - Identifies question-relevant regions in images
+  - Compares VQA attention with curiosity annotations
+  - Generates hybrid heatmaps combining VQA attention with saliency
 
 #### Vision-Language Model Notebooks
 
@@ -31,12 +37,6 @@ A comprehensive project for predicting curiosity-inducing regions in images usin
   - Educational notebook explaining Vision-Language Models (VLMs), VQA, and VQG
   - Covers concepts like CLIP, BLIP, LLaVa, and their applications
   - Discusses integration strategies for curiosity prediction tasks
-
-- **`vqa_model.ipynb`**
-  - Extracts attention heatmaps from VQA (Visual Question Answering) models
-  - Identifies question-relevant regions in images
-  - Compares VQA attention with curiosity annotations
-  - Generates hybrid heatmaps combining VQA attention with saliency
 
 - **`vqa_fintune.ipynb`**
   - Fine-tunes a VQA-style BLIP model to output 14×14 curiosity heatmaps
