@@ -1,0 +1,17 @@
+Instructions for Running Visual Curiosity Engine
+
+1. Place the following model files in the main directory:
+   - vqa_curiosity_best.pth
+   - blip_curiosity_net_best.pth
+   - u2net.pth
+
+2. Create a folder named "checkpoints" and place the following file inside it:
+   - best_model.pth
+
+3. Run the following notebooks:
+   - proposed_model_architecture.ipynb (uses best_model.pth)
+   - inference.ipynb (uses vqa_curiosity_best.pth and blip_curiosity_net_best.pth)
+   - existing_model_architecture.ipynb (uses u2net.pth)
+   
+4. Download all model files from:
+   https://huggingface.co/utsaghosh04/Visual_Curiosity_Engine/tree/main 
