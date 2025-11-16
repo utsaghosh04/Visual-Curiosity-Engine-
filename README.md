@@ -158,7 +158,7 @@ A comprehensive project for predicting curiosity-inducing regions in images usin
 
 2. **Explore Notebooks**
    - Start with `proposed_model_architecture.ipynb` for the main multi-task model
-   - Use `inference.ipynb` to evaluate trained models
+   - Use `inference.ipynb` to evaluate pre trained BLIP and VQA models
    - Check `Vision_Language.ipynb` for background on VLMs
 
 3. **Training**
@@ -167,7 +167,7 @@ A comprehensive project for predicting curiosity-inducing regions in images usin
    - Monitor training progress and validation metrics
 
 4. **Evaluation**
-   - Use `inference.ipynb` to load trained models and compute metrics
+   - Use `inference.ipynb` to load trained BLIP and VQA models and `proposed_model_architecture.ipynb` for proposed model and compute metrics
    - Visualize predictions and compare with ground truth annotations
 
 ##  Data Format
